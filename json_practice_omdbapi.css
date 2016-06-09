@@ -1,0 +1,16 @@
+#title{
+	font-family: sans-serif;
+	color: #0088ff;
+	padding-top: 15px;
+}
+body p{
+	width: 100%;
+	margin: 0 auto;
+}
+#result{
+	text-align: center;
+	background-color: #000000;
+}
+#result p{
+	color: cyan;
+}

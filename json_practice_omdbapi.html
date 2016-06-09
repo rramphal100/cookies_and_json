@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>JSON Test Page</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="json_practice_omdbapi.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+</head>
+<body>
+	<!--<h1>Movie Search Form</h1>-->
+	<form id="form" autocomplete="off">
+		<label for="term">Search Term</label>
+		<input type="text" name="term" id="term" placeholder="Search Term">
+		<input type="submit" value="Submit">
+		<button type="button" class="exit">Exit</button>
+	</form>
+	<p id="suggestion1"></p>
+	<p id="suggestion2"></p>
+	<div id="result">
+		<h1 id="title"> </h1>
+		<div id="image"></div>
+		<p id="actors"></p>
+		<p id="country"></p>
+		<p id="genres"></p>
+		<p id="rating"></p>
+		<p id="release_date"></p>
+	</div>
+	<div id="output"></div>
+	<script src="js/json_practice_omdbapi.js" type="text/javascript"></script>
+</body>
+</html>

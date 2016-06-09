@@ -1,0 +1,8 @@
+To run the server, cd into the desired root folder from the command prompt.
+Then, type
+
+python -m SimpleHTTPServer 8000
+
+to create a server on port 8000.
+Use Ctrl+c to stop the server.
+
