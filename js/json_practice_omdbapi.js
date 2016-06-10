@@ -14,8 +14,8 @@ $("#form").on("submit", function(e){
 		$("#genres").text(response.Genres);
 		$("#rating").text(response.Rating);
 		$("#release_date").text(response.Released);
-	}
-	);
+		$("#plot").text(response.Plot);
+	});
 })
 
 $("#term").on("keyup", function(){
