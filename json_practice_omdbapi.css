@@ -23,5 +23,5 @@ body p{
 
 .suggestions:hover{
 	background-color: #46f;
-	cursor: crosshair;
+	cursor: pointer;
 }
