@@ -16,6 +16,7 @@ $("#form").on("submit", function(e){
 		$("#rating").text(response.Rating);
 		$("#release_date").text(response.Released);
 		$("#plot").text(response.Plot);
+		$("#result").css({display:all});
 	});
 })
 
