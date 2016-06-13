@@ -14,3 +14,12 @@ body p{
 #result p{
 	color: cyan;
 }
+.suggestions{
+	width: contain;
+	border-style: solid;
+	border-width: 5px;
+}
+
+.suggestions:hover{
+	background-color: #46f;
+}

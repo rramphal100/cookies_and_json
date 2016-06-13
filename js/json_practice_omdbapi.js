@@ -2,7 +2,8 @@ $("#form").on("submit", function(e){
 	e.preventDefault();
 	$.getJSON("http://www.omdbapi.com/?",
 	{
-		t: $("#term").val()
+		t: $("#term").val(),
+		type: "movie"
 	},
 	function(response) {
 		console.log(response);
